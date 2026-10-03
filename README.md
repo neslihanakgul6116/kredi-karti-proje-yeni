@@ -32,3 +32,13 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları takip edeb
    ```bash
    git clone [https://github.com/neslihanakgul6116/kredi-karti-proje-yeni.git](https://github.com/neslihanakgul6116/kredi-karti-proje-yeni.git)
    cd kredi-karti-proje-yeni
+2. Gerekli kütüphaneleri yükleyin:
+pip install streamlit pandas numpy matplotlib scikit-learn
+3. **Veri Setini Ekleyin:**
+   * ⚠️ **Önemli:** 100 MB dosya boyutu sınırından ötürü `creditcard.csv` dosyası GitHub deposunda yer almamaktadır.
+   * Kaggle üzerinden **Credit Card Fraud Detection** veri setini indirin.
+   * Çıkacak olan `creditcard.csv` dosyasını proje ana dizinine (`analiz.py` ile aynı klasöre) yerleştirin.
+
+4. **Uygulamayı Çalıştırın:**
+   ```bash
+   streamlit run analiz.py
