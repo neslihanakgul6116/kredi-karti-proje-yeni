@@ -1,58 +1,34 @@
-<<<<<<< HEAD
-# 🚨 Kurumsal Kredi Kartı Dolandırıcılık Tespiti & Risk Yönetim Paneli (Fraud Detection)
+# 💳 Kurumsal Kredi Kartı Dolandırıcılık Tespiti & Risk Yönetim Paneli
 
-Bu proje, dengesiz finansal veri setleri üzerinde makine öğrenmesi algoritmaları kullanarak şüpheli kredi kartı işlemlerini tespit eden, risk skorlaması yapan ve canlı akışı simüle eden kurumsal düzeyde bir **Fintech / Risk Yönetim Paneli**dir.
+Bu proje; makine öğrenmesi algoritmaları, risk skoru hesaplaması ve canlı simülasyonlar ile entegre, kredi kartı dolandırıcılık (fraud) işlemlerini tespit etmeye yönelik geliştirilmiş **profesyonel bir veri bilimi web uygulamasıdır**.
 
 ---
 
 ## 🚀 Projenin Öne Çıkan Özellikleri
 
-1. **Üst Kurumsal KPI Kartları:** Toplam işlem hacmi, gerçek dolandırıcılık vakaları ve sistemdeki potansiyel riskli finansal tutarların anlık gösterimi.
-2. **Gelişmiş Veri Görselleştirme:** Gerçek dengesiz veri dağılımı ile sunum için dengelenmiş örneklem modları arasında geçiş yapabilme.
-3. **Risk Skoru ve Olasılık Göstergesi:** İşlemlerin sadece "Normal" veya "Dolandırıcılık" olarak etiketlenmesinin ötesinde, modelin olasılık çıktısına dayalı dinamik risk yüzdesi (Probability Gauge) hesaplama.
-4. **Canlı İşlem Akışı Simülasyonu:** Arka planda saniyeler içinde akan banka işlemlerini simüle ederek şüpheli işlemleri anlık olarak yakalayan akış ekranı.
-5. **Çoklu Model Karşılaştırma (Benchmark) Paneli:** `Random Forest` ve `Logistic Regression` algoritmalarının Recall, Precision ve F1-Skor metriklerinin bilimsel olarak kıyaslanması.
-6. **Görsel Karmaşıklık Matrisi (Confusion Matrix):** Modellerin başarı ve hata dağılımlarının grafiksel analizi.
+* **📊 Kurumsal Metrik Kartları:** Toplam işlem hacmi, gerçek dolandırıcılık vaka sayıları ve potansiyel riskli tutar analizleri.
+* **🤖 Makine Öğrenmesi Entegrasyonu:** `RandomForestClassifier` kullanılarak dengesiz veri setleri üzerinde yüksek başarımlı sınıflandırma.
+* **📈 Görselleştirme Araçları:** İşlem sınıf dağılımları ve model için en önemli değişkenlerin (Feature Importance) analiz grafikleri.
+* **🎯 Performans Raporlama:** Modelin *Recall (Yakalama)*, *Precision (Kesinlik)* ve *F1-Skoru* metriklerinin anlık takibi.
+* **🔍 Canlı Test Paneli:** Veri setinden rastgele veya özel olarak seçilen işlemlerin yapay zeka tarafından anlık olarak test edilip doğrulanması.
 
 ---
 
 ## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
 
-* **Python** (Temel Programlama Dili)
-* **Streamlit** (Web Arayüzü ve Dashboard Geliştirme)
-* **Scikit-Learn** (Yapay Zeka / Makine Öğrenmesi Modelleri ve Metrikler)
-* **Pandas & NumPy** (Veri Analizi ve Manipülasyonu)
-* **Matplotlib** (Görselleştirme ve Matris Çizimleri)
+* **Python** 
+* **Streamlit** (Arayüz ve Web Uygulaması)
+* **Scikit-Learn** (Makine Öğrenmesi & Model Eğitimi)
+* **Pandas & NumPy** (Veri Analizi ve İşleme)
+* **Matplotlib** (Veri Görselleştirme)
 
 ---
 
-## 📂 Proje Mimarisi ve Kurulum
+## ⚙️ Kurulum ve Çalıştırma
 
-Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları takip edebilirsiniz:
 
-1. **Depoyu Klonlayın:**
+1. **Depoyu klonlayın:**
    ```bash
-   git clone [https://github.com/neslihanakgul6116/KrediKartiProje.git](https://github.com/neslihanakgul6116/KrediKartiProje.git)
-   cd KrediKartiProje
-=======
-# 🚨 Kredi Kartı Dolandırıcılık Tespiti (Credit Card Fraud Detection)
-
-Bu proje, makine öğrenmesi kullanarak şüpheli kredi kartı işlemlerini tespit eden ve kullanıcıların canlı olarak test edebileceği interaktif bir web uygulamasıdır.
-
-## 🛠️ Kullanılan Teknolojiler
-* **Python**
-* **Pandas** (Veri analizi ve manipülasyonu)
-* **Scikit-Learn** (Random Forest modeli ve metrikler)
-* **Streamlit** (İnteraktif web arayüzü)
-
-## 📊 Model Performansı
-* **Doğruluk / Kesinlik (Precision):** ~0.97
-* **Yakalama Oranı (Recall):** ~0.76
-* **F1-Skoru:** ~0.85
-
-## 🚀 Projeyi Yerelde Çalıştırma
-
-1. Bu projeyi bilgisayarınıza klonlayın:
-   ```bash
-   git clone [https://github.com/KULLANICI_ADINIZ/kredi-karti-dolandiricilik-tespiti.git](https://github.com/KULLANICI_ADINIZ/kredi-karti-dolandiricilik-tespiti.git)
->>>>>>> 2e836e3985c2d95e57ae4cc20623e296b02fe8bb
+   git clone [https://github.com/neslihanakgul6116/kredi-karti-proje-yeni.git](https://github.com/neslihanakgul6116/kredi-karti-proje-yeni.git)
+   cd kredi-karti-proje-yeni
